@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h3>에브리타임 필터 관리</h3>
+
+    <div class="container">
+      <div class="column">
+        <div class="title">🚫 게시판 이름으로 차단</div>
+        <input type="text" id="board-input" placeholder="게시판 명..." />
+        <button id="add-board-btn">추가</button>
+        <ul id="board-list"></ul>
+      </div>
+
+      <div class="column">
+        <div class="title">✂️ 게시물 키워드로 차단</div>
+        <input type="text" id="keyword-input" placeholder="키워드 입력..." />
+        <button id="add-keyword-btn">추가</button>
+        <ul id="keyword-list"></ul>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

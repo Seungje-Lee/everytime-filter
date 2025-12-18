@@ -1,0 +1,80 @@
+body {
+  width: 300px; /* 가로 배치를 위해 너비를 확장합니다 */
+  padding: 15px;
+  font-family: "Malgun Gothic", sans-serif;
+  margin: 0;
+}
+h3 {
+  margin-top: 0;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+}
+
+/* 가로 배치를 위한 컨테이너 */
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1; /* 양쪽 섹션이 동일한 너비를 가집니다 */
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+ul {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+  border-top: 1px solid #eee;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #f9f9f9;
+  font-size: 13px;
+}
+
+.del-btn {
+  color: #ff4d4d;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px 5px;
+}
